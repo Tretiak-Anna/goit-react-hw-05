@@ -1,0 +1,23 @@
+.table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+.tableTitle {
+  border: 1px solid black;
+  background: black;
+  color: white;
+  font-size: 20px;
+}
+
+.grey {
+  background-color: #dedddd;
+}
+
+.white {
+  background-color: #ffffff;
+}
+.cell {
+  padding: 10px;
+  border: 2px solid black;
+}

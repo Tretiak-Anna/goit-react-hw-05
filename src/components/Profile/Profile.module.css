@@ -1,0 +1,49 @@
+.username {
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+}
+.stats {
+  border-top: 2px rgb(165, 158, 158) solid;
+  background: rgb(225, 222, 222);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profileContainer {
+  border: 2px rgb(53, 50, 50) solid;
+  border-radius: 12px;
+  background-color: rgb(241, 241, 241);
+  overflow: hidden;
+}
+.statsValue {
+  padding: 8px;
+  display: block;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.userInfo {
+  font-size: 30px;
+  color: grey;
+  margin: 15px;
+}
+
+.statsItem {
+  font-size: 30px;
+  border-right: 2px solid rgb(165, 158, 158);
+  padding-right: 10px;
+}
+
+.statsItem:last-child {
+  border-right: none;
+}
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  background-color: #575656;
+}
